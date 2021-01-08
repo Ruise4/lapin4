@@ -1,0 +1,53 @@
+/*
+
+*/
+h1{
+    background-color: crimson;
+    color: azure;
+    margin: 2px;
+    padding: 5px;
+    border: 3px dashed black;
+    border-radius: 50px;
+}
+span{
+    font-size: 35px;
+    font-weight: 900px;
+    /*font-weight: bolt*/
+    font-family: fantasy;
+}
+
+/*
+Galeria de imagenes
+*/
+
+body{
+    background-color: lawngreen;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    /*las posiciones en el ccs se puedn medir de forma absoluta,normalmente se usa unidades pixelas*/
+    bottom: 0px;
+    width: 100%;
+    padding: 9px;
+    text-align: center;
+    border: 6px solid white;
+
+   
+}
+h2{
+    text-align: center;
+}
+
+img{
+  width: 100%; 
+border: black 3px solid;
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    margin-bottom: 100px;
+}

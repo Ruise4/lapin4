@@ -1,0 +1,40 @@
+/*
+Lista de clase
+Fracisco Javier
+*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ff9e1e;
+}
+header,footer{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+main{
+   margin:auto;
+    width: 50%;
+    
+}
+ol,ul,dl{
+    margin: 10px;
+    border:2px dotted black;
+    background-color: white;
+}
+ol{
+    list-style: upper-roman;
+}
+ol>ul{
+  list-style: lower-alpha;
+}
+ul{
+    list-style: circle;
+}
